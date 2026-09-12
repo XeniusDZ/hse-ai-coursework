@@ -1,0 +1,29 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+
+# Downloaded / generated artifacts (datasets fetched inside notebooks, model weights, runs)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+lightning_logs/
+wandb/
+*.zip
+*.tar
+*.tar.gz
+
+# Editor / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
